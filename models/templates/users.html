@@ -1,3 +1,7 @@
-<h1>Page Users</h1>
+{% extends 'base.html' %}
 
-<p>Seu nome é {{ name_user }} </p>
+{% block title %}Users{% endblock%}
+
+{% block content %}<h1>Wellcome back 👋</h1>{% endblock %}
+
+{% block paragraph %}<p>{{ name_user }}</p>{% endblock %}
