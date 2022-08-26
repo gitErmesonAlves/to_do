@@ -1,0 +1,50 @@
+html,
+body {
+    background-image: url('/public/assets/wallpaper-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-clip: border-box;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+a
+{
+    list-style: none !important;
+    color: #f5f5f5 !important;
+    background-color: transparent !important;
+    text-decoration: none !important;
+}
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+.btnLink
+{
+    background-color: transparent !important;
+    color: #f5f5f5 !important;
+    border-color: #f5f5f5 !important;
+}
